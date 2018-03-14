@@ -6,9 +6,14 @@
     "platforms": [
       "browser"
     ],
-    "plugins": {}
+    "plugins": {
+      "cordova-plugin-local-notification": {}
+    }
   },
   "dependencies": {
-    "cordova-browser": "^5.0.3"
+    "cordova-browser": "^5.0.3",
+    "cordova-plugin-badge": "^0.8.7",
+    "cordova-plugin-device": "^2.0.1",
+    "cordova-plugin-local-notification": "^0.9.0-beta.2"
   }
 }
