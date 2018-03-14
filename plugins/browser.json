@@ -7,21 +7,12 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
     "cordova-plugin-media": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-badge": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     }
   }
