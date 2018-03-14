@@ -18,12 +18,8 @@
               alert('ready');
 
 
-              cordova.plugins.notification.local.schedule({
-                  title: 'My first notification',
-                  text: 'Thats pretty easy...',
-                  foreground: true
-              });
-              
+
+
               document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
               media = new Media('https://vidiochat360owl.herokuapp.com/viber_original.mp3', mediaSuccess, function(e){alert(e);console.log(e);});
               media.play();

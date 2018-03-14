@@ -4,16 +4,13 @@
   "displayName": "testabc",
   "cordova": {
     "platforms": [
-      "browser"
+      "browser",
+      "android"
     ],
-    "plugins": {
-      "cordova-plugin-local-notification": {}
-    }
+    "plugins": {}
   },
   "dependencies": {
-    "cordova-browser": "^5.0.3",
-    "cordova-plugin-badge": "^0.8.7",
-    "cordova-plugin-device": "^2.0.1",
-    "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git"
+    "cordova-android": "^7.0.0",
+    "cordova-browser": "^5.0.3"
   }
 }
